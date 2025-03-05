@@ -1,0 +1,10 @@
+@media screen and (max-width:520px) {
+    .q-section article{
+        font-size: 1.5rem;
+    } 
+}
+
+
+@media screen and (min-width:769px) {
+    
+}

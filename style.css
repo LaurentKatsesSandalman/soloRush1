@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Almendra:ital,wght@0,400;0,700;1,400;1,700&family=Bree+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Almendra:ital,wght@0,400;0,700;1,400;1,700&family=Bree+Serif&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root{
+    --color1:#0a014f; /*main nav color + question color*/
+    --color2:#cd9fcc; /*main title color */
+    --color3:#e4c2c6;
+    --color4:#f6caca;
+    --color5:#fae8eb; /*main bg color + text on nav*/
+    --font-title:"Bree Serif";
+    --font-question:"Almendra";
+    --font-content:"Merriweather Sans";
+    --font-color-main:black;
+}
+
+*{
+    
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: var(--color5);
+    font-family: var(--font-content), sans-serif;
+    color:var(--font-color-main);
+    
+}
+
+header{
+    background-color: var(--color1);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:100%;
+    align-items: center;
+    color: var(--color5)
+}
+
+.logo{
+    display:block;
+    height: 5rem;
+    width:auto;
+    border-radius: 500px;
+    margin:0 1rem;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: end;
+    margin:0.5rem 1rem;
+}
+
+nav ul li {
+    list-style-type: none;
+    line-height: 2;
+}
+
+nav li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.intro{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.intro img {
+    margin: 2rem;
+    width:50%;
+    height:auto;
+}
+
+.intro-txt {
+    width:80%;
+}
+
+h1{
+    color:var(--color2);
+    text-align: center;
+    font-weight: bolder;
+    font-size: 2rem;
+}
+
+.q-section div{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    gap:4vw;
+    justify-items: center;
+    margin:0 auto;
+    width:80%
+}
+
+.q-section article{
+    width:38vw;
+    height:38vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--color1);
+    font-family: var(--font-question), sans-serif;
+    font-size: 2rem;
+}
+
+.q-section article div{
+    width:100%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.q-section article div:active{
+    display: none;
+}
+
+.q-section article div p{
+    width:80%;
+    text-align: center;
+}
+
+.q1 div{
+    background-color: var(--color2);
+   
+}
+
+.q1 {
+    
+    background-image: url(Images/sandals.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.q2 div{
+    background-color: var(--color3);
+   
+}
+
+.q2 {
+    
+    background-image: url(Images/weirdal.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.q3 div{
+    background-color: var(--color4);
+   
+}
+
+.q3 {
+    
+    background-image: url(Images/Princess-Bride-poster.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.q4 div{
+    background-color: var(--color2);
+   
+}
+
+.q4 {
+    
+    background-image: url(Images/quiche-lorraine.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.q5 div{
+    background-color: var(--color3);
+   
+}
+
+.q5 {
+    
+    background-image: url(Images/megaman.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.q6 div{
+    background-color: var(--color4);
+   
+}
+
+.q6 {
+    
+    background-image: url(Images/betrayal.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.q7 div{
+    background-color: var(--color2);
+   
+}
+
+.q7 {
+    
+    background-image: url(Images/lunchmoney-w1200.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+footer{
+    text-align: center;
+    background-color: var(--color1);
+    color: var(--color5);
+    padding:1rem;
+    margin-top:3rem;
+}
