@@ -36,11 +36,11 @@
         height:min(26vw,260px);
     }
 
-    .q1 div{ background-color: var(--color2);}
-    .q2 div{ background-color: var(--color3);}
-    .q3 div{ background-color: var(--color4);}
-    .q4 div{ background-color: var(--color3);}
-    .q5 div{ background-color: var(--color2);}
-    .q6 div{ background-color: var(--color3);}
-    .q7 div{ background-color: var(--color4);}
+    .q1 div{ background-color: var(--color2, #cd9fcc);}
+    .q2 div{ background-color: var(--color3, #e4c2c6);}
+    .q3 div{ background-color: var(--color4, #f6caca);}
+    .q4 div{ background-color: var(--color3, #e4c2c6);}
+    .q5 div{ background-color: var(--color2, #cd9fcc);}
+    .q6 div{ background-color: var(--color3, #e4c2c6);}
+    .q7 div{ background-color: var(--color4, #f6caca);}
 }
