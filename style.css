@@ -58,6 +58,7 @@ nav ul {
 nav ul li {
     list-style-type: none;
     line-height: 2;
+    margin:0 0.5rem;
 }
 
 nav li a {
